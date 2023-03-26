@@ -18,7 +18,7 @@ int main(){
     system("clear");
     while(inicio != 'q'  && inicio != 'Q'){
         cout << "========================================================" << endl;
-        cout << "                         Genius                         " << endl;
+        cout << "                     Numeric Genius                     " << endl;
         cout << "========================================================" << endl;
         cout << endl << "Menu:" << endl;
         cout <<  "i/I - Iniciar" << endl;
@@ -31,10 +31,10 @@ int main(){
         if(inicio == 'i' || inicio == 'I'){
             while(dificuldade != '1' && dificuldade != '2' && dificuldade != '3'){
                 cout << "========================================================" << endl;
-                cout << "                         Genius                         " << endl;
+                cout << "                     Numeric Genius                     " << endl;
                 cout << "========================================================" << endl;
                 cout << endl << "Dificuldade: " << endl;
-                cout <<  "1 - Fácil" << endl;
+                cout << "1 - Fácil" << endl;
                 cout << "2 - Médio" << endl;
                 cout << "3 - Difícil" << endl << endl << "R:";
                 cin >> dificuldade;
@@ -66,9 +66,9 @@ int main(){
                 int aleatorio = numeroAleatorio(1, 100);
                 f1.fila::insere(aleatorio,&ok);
                 cout << "========================================================" << endl;
-                cout << "                         Genius                         " << endl;
+                cout << "                     Numeric Genius                     " << endl;
                 cout << "========================================================" << endl;
-                cout << endl << "Se prepare! Decore a sequência a baixo!" << endl << endl;
+                cout << endl << "Se prepare! Decore a sequência abaixo!" << endl << endl;
                 usleep(2000000);
                 system("clear");
 
@@ -76,7 +76,7 @@ int main(){
                     f1.fila::retira(&valor, &ok);
 
                     cout << "========================================================" << endl;
-                    cout << "                         Genius                         " << endl;
+                    cout << "                     Numeric Genius                     " << endl;
                     cout << "========================================================" << endl;
                     cout << endl << "Se prepare! Decore a sequência a baixo!" << endl << endl;
 
@@ -92,7 +92,7 @@ int main(){
 
                 system("clear");
                 cout << "========================================================" << endl;
-                cout << "                         Genius                         " << endl;
+                cout << "                     Numeric Genius                     " << endl;
                 cout << "========================================================" << endl;
                 cout << endl << "Legal! Agora digite a seqência!" << endl << endl;
 
@@ -112,7 +112,7 @@ int main(){
 
                 if(erro == false){
                     cout << "========================================================" << endl;
-                    cout << "                         Genius                         " << endl;
+                    cout << "                     Numeric Genius                     " << endl;
                     cout << "========================================================" << endl;
                     cout << endl << "Parabéns! Você acertou a sequência!!!" << endl;
                     cout << "Vamos para a próxima rodada!" << endl;
@@ -127,10 +127,10 @@ int main(){
 
             char lixo;
             cout << "========================================================" << endl;
-            cout << "                         Genius                         " << endl;
+            cout << "                     Numeric Genius                     " << endl;
             cout << "========================================================" << endl;
             cout << endl << "Que pena, você perdeu ;(" << endl;
-            cout << "Aperte qualquer tecla para ir ao menu." << endl << endl;
+            cout << "Insira qualquer valor para ir ao menu." << endl << endl;
             cin >> lixo;
             system("clear");
 
