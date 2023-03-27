@@ -78,7 +78,7 @@ int main(){
                     cout << "========================================================" << endl;
                     cout << "                     Numeric Genius                     " << endl;
                     cout << "========================================================" << endl;
-                    cout << endl << "Se prepare! Decore a sequência a baixo!" << endl << endl;
+                    cout << endl << "Se prepare! Decore a sequência abaixo!" << endl << endl;
 
                     usleep(100000);    
 
@@ -94,7 +94,7 @@ int main(){
                 cout << "========================================================" << endl;
                 cout << "                     Numeric Genius                     " << endl;
                 cout << "========================================================" << endl;
-                cout << endl << "Legal! Agora digite a seqência!" << endl << endl;
+                cout << endl << "Legal! Agora digite a sequência!" << endl << endl;
 
                 int contador = 0, valor_usuario;
                 while(erro == false && contador < f1.fila::get_tamanho()){
@@ -130,7 +130,7 @@ int main(){
             cout << "                     Numeric Genius                     " << endl;
             cout << "========================================================" << endl;
             cout << endl << "Que pena, você perdeu ;(" << endl;
-            cout << "Insira qualquer valor para ir ao menu." << endl << endl;
+            cout << "Insira qualquer valor para voltar ao menu." << endl << endl;
             cin >> lixo;
             system("clear");
 
